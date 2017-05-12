@@ -1,0 +1,31 @@
+﻿<h1 *ngIf="!givenName">Login In!</h1>
+<h1 class="text-success" *ngIf="givenName">Logged in as {{givenName}} </h1>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <p>Login with Authorization Server</p>
+        <button class="btn btn-default" (click)="login()">Login</button>
+        <button class="btn btn-default" (click)="logout()">Logout</button>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <p>Login with Username/Password</p>
+        <p style="color:red; font-weight:bold" *ngIf="loginFailed">
+            Login wasn't successfull.
+        </p>
+        <div class="form-group">
+            <label>Username</label>
+            <input class="form-control" [(ngModel)]="userName">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input class="form-control" type="password" [(ngModel)]="password">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-default" (click)="loginWithPassword()">Login</button>
+            <button class="btn btn-default" (click)="logout()">Logout</button>
+        </div>
+    </div>
+</div>
+

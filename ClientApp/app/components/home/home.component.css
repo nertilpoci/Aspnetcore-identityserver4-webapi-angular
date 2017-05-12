@@ -1,0 +1,27 @@
+﻿div {
+    width: 100%;
+    margin: 10px
+}
+
+ol {
+    color: #ccc;
+    list-style-type: none;
+}
+
+    ol li {
+        position: relative;
+        font: bold italic 35px/1.5 Helvetica, Verdana, sans-serif;
+        margin-bottom: 20px;
+    }
+
+li p {
+    font: 22px/1.5 Helvetica, sans-serif;
+    padding-left: 60px;
+    color: #555;
+    margin-top:20px;
+    vertical-align: middle;
+}
+
+span {
+    position: absolute;
+}
