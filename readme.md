@@ -1,7 +1,7 @@
 # Aspnetcore-identityserver4-webapi-angular
 All in one, Identityserver4, Aspnetcore Identity, WebApi and Angular Client
 
-**strong** How to run
+**How to run**
 Download or clone the repository
 1. Open command prompt on the project directory
 2. Execute dotnet restore to restore the dependencies
