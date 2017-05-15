@@ -1,7 +1,7 @@
 # Aspnetcore-identityserver4-webapi-angular
 All in one, Identityserver4, Aspnetcore Identity, WebApi and Angular Client
 
-**Demo  www.ids4angularaspidentity.npoci.com/ **
+**Demo  www.ids4angularaspidentity.npoci.com**
 
 **How to run**
 1. Download or clone the repository
